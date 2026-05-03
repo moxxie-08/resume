@@ -1,0 +1,51 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1736740728952-4448b06be7a9?auto=format&fit=crop&q=80');
+    background-size: cover;
+}
+.name {
+    font-size: 80px;
+    font-family: "Copperplate Gothic Light", "Copperplate", serif;
+    background-color: rgba(90,130,140, 0.5);
+    color:rgb(25,54,65);
+}
+header h4 {
+    font-size: 20px;
+    font-family: "Copperplate Gothic Light", "Copperplate", serif;
+    background-color: rgba(90,130,140, 0.5);
+    margin-top: 1px;
+    color:rgb(5,5,5);
+}
+p {
+    margin-top: 2px;
+    color:rgb(130,69,19);
+}
+
+
+.section {
+  margin-bottom: 10px;
+  width: 500px;
+}
+
+
+.one {
+    cursor: pointer;
+    font-size: 40px;
+    font-family: "Copperplate Gothic Light", "Copperplate", serif;
+    width: 500px;
+    height: 100px;
+}
+
+.one:hover {
+    background-color: rgba(154,192,205,0.7);
+    transition: all 0.3s ease;
+}
+
+.more-info {
+    display:none;
+    opacity: 0;
+    background-color: rgba(154, 192, 205, 0.7);
+    padding: 15px;
+    width: 1100px;
+    font-family: "Copperplate Gothic Light", "Copperplate", serif;
+    font-size: 20px;
+}
